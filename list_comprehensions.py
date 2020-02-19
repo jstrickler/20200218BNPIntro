@@ -63,3 +63,10 @@ print("last names:", last_names, '\n')
 dobs = [p[3] for p in people]
 print("DOBs:", dobs, '\n')
 
+fgen = (f.upper() for f in fruits)
+print(fgen, '\n')
+
+for fruit in fgen:
+    print(fruit)
+print()
+

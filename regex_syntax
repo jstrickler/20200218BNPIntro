@@ -1,0 +1,45 @@
+
+pat     "a pat on the back"   "pattern language  "compatible"
+
+p.t     "carpet"    "keep to the right"
+
+p[aeiou]t
+
+p[a-zA-Z0-9_]t   p\wt
+
+[0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9][0-9][0-9]
+
+pattern = r"\d\d\d-\d\d-\d\d\d\d"
+
+394854-83-29093028989
+
+wombat = r"BNP\w+Paribas"
+
+pat
+
+pa+t    pat paaaaaaaaaaaaaaaaaat
+
+pa*t   pt pat paaaaaaaaaaaaaaaaaat
+
+\d{3}-\d{2}-\d{4}
+
+BNP\s{1,2}Paribas
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

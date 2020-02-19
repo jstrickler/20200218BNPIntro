@@ -12,7 +12,7 @@ officia deserunt Y45 mollit anim id est laborum"""
 
 rx_code = re.compile(r'(?P<letter>[A-Z])(?P<number>\d{2,3})', re.I)
 
-s2 = rx_code.sub("[REDACTED]", s) # <1>
+s2 = rx_code.sub("[WEASEL_CHEESE]", s) # <1>
 print(s2)
 print()
 
